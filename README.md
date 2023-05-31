@@ -41,9 +41,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Header Section**
+- **Headline Section**
+- **Collaboration Button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,7 +52,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- Coming soon...
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
