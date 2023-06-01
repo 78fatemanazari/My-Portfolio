@@ -32,6 +32,10 @@ body {
   height: 74px;
 }
 
+.header img {
+  margin-right: 14px;
+}
+
 /* Headline Style */
 
 .headline {
