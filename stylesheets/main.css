@@ -185,3 +185,142 @@ body {
   vertical-align: middle;
   margin-left: 10px;
 }
+
+/*About Section Style*/
+
+#about h1 {
+  font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #1A2236;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1A2236;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-two {
+  width: 288px;
+  height: 50px;
+  background: #1a2236;
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 5px 16px;
+}
+
+.btn-two img {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.languages {
+  width: 289px;
+  height: 289px;
+  background: #1c528a;
+  margin-left: 16px;
+}
+
+.languages h3 {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px ;
+  padding-top: 50px;
+}
+
+.languages ul {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+  margin-left: 66px;
+}
+
+.languages-img {
+  background-image: url("./images/ic_languages_mob.svg");
+  background-repeat: no-repeat;
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  top: 3350px;
+  margin-left: 187px;
+}
+
+.frameworks {
+  width: 289px;
+  height: 289px;
+  background: #E2505C;
+  margin-left: 16px;
+}
+
+.frameworks h3 {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px ;
+  padding-top: 50px;
+}
+
+.frameworks ul {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+  margin-left: 66px;
+}
+
+.frameworks-img {
+  background-image: url("./images/ic_framework.svg");
+  background-repeat: no-repeat;
+  width: 96px;
+  height: 96px;
+  margin-left: 193px;
+}
+
+.skills {
+  width: 289px;
+  height: 340px;
+  background: #FEBF52;
+  margin-left: 16px;
+}
+
+.skills h3 {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px ;
+  padding-top: 50px;
+}
+
+.skills ul {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+  margin-left: 66px;
+}
+
+.skills-img {
+  background-image: url("./images/ic_skills.svg");
+  background-repeat: no-repeat;
+  width: 102px;
+  height: 102px;
+  margin-left: 187px;
+}
