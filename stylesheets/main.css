@@ -92,3 +92,96 @@ body {
 .btn:hover {
   background-color: black;
 }
+
+/*Portfolio Style*/
+
+#portfolio h1 {
+  font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #1a2236;
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
+
+/*Start Grid*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.projects-item {
+  background: linear-gradient(0deg, #1A2236, #1A2236),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  grid-column: span 4;
+  height: 156px;
+}
+
+.projects-item img {
+  max-width: 100%;
+}
+
+/*End Grid*/
+
+.projects-item h4 {
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 36px 5px 20px;
+}
+
+.projects-item ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.projects-item ul li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 10.3334px;
+  background: #98dede;
+  color: #1a2236;
+  text-align: center;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.projects-item ul li:hover {
+  background: #1a2236;
+  color: #fff;
+}
+
+/*Portfolio button style*/
+
+.project-button {
+  width: 178px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  padding: 10px 10px;
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.project-button:hover {
+  transform: scale(1.1);
+}
+
+.project-button img {
+  vertical-align: middle;
+  margin-left: 10px;
+}
