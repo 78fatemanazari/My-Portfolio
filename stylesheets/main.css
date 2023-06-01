@@ -19,15 +19,17 @@ body {
 /* Header Style */
 
 .header {
+  width: 318px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.header img:nth-child(2) {
-  cursor: pointer;
-  align-self: flex-start;
-  margin-top: 19px;
-  margin-right: 14px;
+.header-img{
+  background-image: url("/stylesheets/images/image_geometry_1.svg");
+  background-repeat: no-repeat;
+  width: 111px;
+  height: 74px;
 }
 
 /* Headline Style */
@@ -57,6 +59,8 @@ body {
   margin-left: 16px;
   margin-top: 0;
 }
+
+
 
 /* Button Style */
 
