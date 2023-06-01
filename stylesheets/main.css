@@ -26,7 +26,7 @@ body {
 }
 
 .header-img {
-  background-image: url("/stylesheets/images/image_geometry_1.svg");
+  background-image: url("./images/image_geometry_1.svg");
   background-repeat: no-repeat;
   width: 111px;
   height: 74px;
@@ -61,7 +61,7 @@ body {
 }
 
 .headline-img {
-  background-image: url("/stylesheets/images/image_geometry_2.svg");
+  background-image: url("./images/image_geometry_2.svg");
   background-repeat: no-repeat;
   width: 320px;
   height: 160px;
