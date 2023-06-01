@@ -60,7 +60,12 @@ body {
   margin-top: 0;
 }
 
-
+.headline-img{
+  background-image: url("/stylesheets/images/image_geometry_2.svg");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+}
 
 /* Button Style */
 
