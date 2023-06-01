@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 318px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* Header Style */
+
+.header {
+  width: 318px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-img {
+  background-image: url("./images/image_geometry_1.svg");
+  background-repeat: no-repeat;
+  width: 111px;
+  height: 74px;
+}
+
+.header img {
+  margin-right: 14px;
+}
+
+/* Headline Style */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline h1 {
+  font-family: "Playfair Display", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin-left: 16px;
+  margin-bottom: 17px;
+}
+
+.headline p {
+  font-family: "Poppins", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-left: 16px;
+  margin-top: 0;
+}
+
+.headline-img {
+  background-image: url("./images/image_geometry_2.svg");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+}
+
+/* Button Style */
+
+.btn {
+  width: 288px;
+  height: 50px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+  font-family: "Poppins", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #1a2236;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: black;
+}
