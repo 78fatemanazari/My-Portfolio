@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
 }
 
-.header-img{
+.header-img {
   background-image: url("/stylesheets/images/image_geometry_1.svg");
   background-repeat: no-repeat;
   width: 111px;
@@ -60,7 +60,7 @@ body {
   margin-top: 0;
 }
 
-.headline-img{
+.headline-img {
   background-image: url("/stylesheets/images/image_geometry_2.svg");
   background-repeat: no-repeat;
   width: 320px;
