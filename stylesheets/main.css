@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
-body, h4, ul, img {
+body,
+h4,
+ul,
+img {
   margin: 0;
   padding: 0;
   font-family: "Poppins", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -93,7 +96,7 @@ body, h4, ul, img {
   background-color: black;
 }
 
-/*Portfolio Style*/
+/* Portfolio Style */
 
 #portfolio h1 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -104,7 +107,7 @@ body, h4, ul, img {
   margin-bottom: 32px;
 }
 
-/*Start Grid*/
+/* Start Grid */
 
 .grid {
   display: grid;
@@ -112,8 +115,9 @@ body, h4, ul, img {
 }
 
 .projects-item {
-  background: linear-gradient(0deg, #1A2236, #1A2236),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  background:
+    linear-gradient(0deg, #1a2236, #1a2236),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
   grid-column: span 4;
   height: 156px;
 }
@@ -122,7 +126,7 @@ body, h4, ul, img {
   max-width: 100%;
 }
 
-/*End Grid*/
+/* End Grid */
 
 .projects-item h4 {
   font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -159,7 +163,7 @@ body, h4, ul, img {
   color: #fff;
 }
 
-/*Portfolio button style*/
+/* Portfolio button style */
 
 .project-button {
   width: 178px;
@@ -186,13 +190,13 @@ body, h4, ul, img {
   margin-left: 10px;
 }
 
-/*About Section Style*/
+/* About Section Style */
 
 #about h1 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 50px;
-  color: #1A2236;
+  color: #1a2236;
   margin-left: 16px;
   margin-bottom: 20px;
 }
@@ -201,7 +205,7 @@ body, h4, ul, img {
   font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #1A2236;
+  color: #1a2236;
   margin-left: 16px;
   margin-bottom: 20px;
 }
@@ -214,7 +218,7 @@ body, h4, ul, img {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
   margin: 5px 16px;
 }
@@ -236,7 +240,7 @@ body, h4, ul, img {
   font-weight: 800;
   font-size: 20px;
   color: #fff;
-  margin-left: 50px ;
+  margin-left: 50px;
   padding-top: 50px;
 }
 
@@ -262,7 +266,7 @@ body, h4, ul, img {
 .frameworks {
   width: 289px;
   height: 289px;
-  background: #E2505C;
+  background: #e2505c;
   margin-left: 16px;
 }
 
@@ -271,7 +275,7 @@ body, h4, ul, img {
   font-weight: 800;
   font-size: 20px;
   color: #fff;
-  margin-left: 50px ;
+  margin-left: 50px;
   padding-top: 50px;
 }
 
@@ -295,7 +299,7 @@ body, h4, ul, img {
 .skills {
   width: 289px;
   height: 340px;
-  background: #FEBF52;
+  background: #febf52;
   margin-left: 16px;
 }
 
@@ -304,7 +308,7 @@ body, h4, ul, img {
   font-weight: 800;
   font-size: 20px;
   color: #fff;
-  margin-left: 50px ;
+  margin-left: 50px;
   padding-top: 50px;
 }
 
@@ -324,5 +328,3 @@ body, h4, ul, img {
   height: 102px;
   margin-left: 187px;
 }
-
-
