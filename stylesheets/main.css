@@ -89,11 +89,11 @@ img {
   color: #fff;
   background-color: #1a2236;
   cursor: pointer;
-  transition: 1s;
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: #fff;
+  color: #1a2236;
 }
 
 /* Portfolio Style */
