@@ -119,7 +119,7 @@ img {
     linear-gradient(0deg, #1a2236, #1a2236),
     linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
   grid-column: span 12;
-  height: 45vh;
+  height: 355px;
 }
 
 .projects-item img {
