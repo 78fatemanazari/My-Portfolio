@@ -109,21 +109,22 @@ img {
 
 /* Start Grid */
 
-.grid {
+.projects.grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .projects-item {
   background:
     linear-gradient(0deg, #1a2236, #1a2236),
     linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-  grid-column: span 4;
-  height: 156px;
+  grid-column: span 12;
+  height: 45vh;
 }
 
 .projects-item img {
   max-width: 100%;
+  margin-top: -1px;
 }
 
 /* End Grid */
@@ -259,7 +260,7 @@ img {
   width: 102px;
   height: 102px;
   position: absolute;
-  top: 3359px;
+  top: 3402px;
   margin-left: 187px;
 }
 
