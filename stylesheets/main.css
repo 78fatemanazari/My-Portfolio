@@ -161,9 +161,11 @@ img {
   background: #98dede;
   color: #1a2236;
   text-align: center;
-  padding: 6px 10px;
+  padding: 3px 8px;
   cursor: pointer;
   transition: 0.5s;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .projects-item ul li:hover {
