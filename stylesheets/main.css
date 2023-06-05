@@ -137,12 +137,19 @@ img {
   margin: 5px 36px 5px 20px;
 }
 
-.projects-item ul {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-  margin-left: 20px;
-  margin-bottom: 30px;
+.projects-item ul li:nth-child(1) {
+  float: left;
+  margin-left: 20px ;
+}
+
+.projects-item ul li:nth-child(2) {
+  float: left;
+  margin-left: 10px ;
+}
+
+.projects-item ul li:nth-child(3) {
+  float: left;
+  margin-left: 10px ;
 }
 
 .projects-item ul li {
