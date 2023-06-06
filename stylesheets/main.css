@@ -396,6 +396,10 @@ img {
   padding-left: 16px;
 }
 
+.form ul li input[type=text]{
+  padding-bottom: 8px;
+}
+
 .form ul li #email {
   border: 1px solid #1a2236;
 }
