@@ -193,6 +193,10 @@ img {
 
 /* About Section Style */
 
+#about{
+  margin-bottom: 30px;
+}
+
 #about h1 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
