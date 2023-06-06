@@ -412,3 +412,34 @@ img {
   padding-left: 16px;
   padding-top: 10px;
 }
+
+/* Footer Style */
+
+.footer {
+  width: 318px;
+  height: 137px;
+  background: #1a2236;
+}
+
+.footer .link a {
+  color: #92dcdc;
+  margin-top: 28px;
+  margin-left: 79px;
+  text-decoration: none;
+}
+
+.footer .link img {
+  margin-left: 10px;
+  margin-top: 23px;
+}
+
+.social-icons ul {
+  display: flex;
+  gap: 28px;
+  margin-left: 18px;
+  margin-top: 30px;
+}
+
+.social-icons ul li {
+  list-style-type: none;
+}
