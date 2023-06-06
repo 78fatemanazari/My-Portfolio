@@ -159,6 +159,22 @@ img {
   transition: 0.5s;
 }
 
+.form ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+  margin-left: 18px;
+}
+
+.social-icons ul li {
+  list-style-type: none;
+}
+
 .projects-item ul li:hover {
   background: #1a2236;
   color: #fff;
@@ -369,18 +385,6 @@ img {
   margin-left: 18px;
 }
 
-.form ul li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 15px;
-  color: #7d7c84;
-  margin-left: 18px;
-}
-
 .form ul li input {
   width: 288px;
   height: 52px;
@@ -438,8 +442,4 @@ img {
   gap: 28px;
   margin-left: 18px;
   margin-top: 30px;
-}
-
-.social-icons ul li {
-  list-style-type: none;
 }
