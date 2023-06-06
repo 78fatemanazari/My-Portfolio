@@ -193,7 +193,7 @@ img {
 
 /* About Section Style */
 
-#about{
+#about {
   margin-bottom: 30px;
 }
 
@@ -334,22 +334,22 @@ img {
   margin-left: 187px;
 }
 
-/*Contact Form Style*/
+/* Contact Form Style */
 
-#contact-form{
-  background: #F9F9FA;
+#contact-form {
+  background: #f9f9fa;
   width: 320px;
   height: 631px;
 }
 
-.contact-form-img{
+.contact-form-img {
   background-image: url("./images/image_geometry_1.svg");
   background-repeat: no-repeat;
   width: 111px;
   height: 74.02px;
 }
 
-#contact-form h1{
+#contact-form h1 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 50px;
@@ -359,7 +359,7 @@ img {
   margin-bottom: 0;
 }
 
-#contact-form p{
+#contact-form p {
   font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -369,7 +369,7 @@ img {
   margin-left: 18px;
 }
 
-.form ul li{
+.form ul li {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -377,11 +377,11 @@ img {
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
-  color: #7D7C84;
+  color: #7d7c84;
   margin-left: 18px;
 }
 
-.form ul li input{
+.form ul li input {
   width: 288px;
   height: 52px;
   background: #fff;
@@ -390,26 +390,56 @@ img {
   margin-bottom: 5px;
 }
 
-.form ul li #email{
+.form ul li #email {
   border: 1px solid #1a2236;
 }
 
-.form ul li textarea{
+.form ul li textarea {
   width: 288px;
   height: 112px;
-  background: #FFFFFF;
-  border: 1px solid #DFDFE0;
+  background: #fff;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
   margin-bottom: 20px;
 }
 
-.form ul li input::placeholder{
-  color: #1A2236;
+.form ul li input::placeholder {
+  color: #1a2236;
   padding-left: 16px;
 }
 
-.form ul li textarea::placeholder{
+.form ul li textarea::placeholder {
   padding-left: 16px;
   padding-top: 10px;
 }
 
+/* Footer Style */
+
+.footer {
+  width: 318px;
+  height: 137px;
+  background: #1a2236;
+}
+
+.footer .link a {
+  color: #92dcdc;
+  margin-top: 28px;
+  margin-left: 79px;
+  text-decoration: none;
+}
+
+.footer .link img {
+  margin-left: 10px;
+  margin-top: 23px;
+}
+
+.social-icons ul {
+  display: flex;
+  gap: 28px;
+  margin-left: 18px;
+  margin-top: 30px;
+}
+
+.social-icons ul li {
+  list-style-type: none;
+}
