@@ -392,6 +392,8 @@ img {
   border: 1px solid #dfdfe0;
   border-radius: 4px;
   margin-bottom: 5px;
+  padding-top: 23px;
+  padding-left: 16px;
 }
 
 .form ul li #email {
@@ -405,16 +407,8 @@ img {
   border: 1px solid #dfdfe0;
   border-radius: 4px;
   margin-bottom: 20px;
-}
-
-.form ul li input::placeholder {
-  color: #1a2236;
+  padding-top: 14px;
   padding-left: 16px;
-}
-
-.form ul li textarea::placeholder {
-  padding-left: 16px;
-  padding-top: 10px;
 }
 
 /* Footer Style */
