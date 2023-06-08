@@ -445,44 +445,43 @@ img {
 .header-nav,
 .headline-desktop-img,
 .project-21-itmes,
-.project-26-itmes{
+.project-26-itmes {
   display: none;
 }
 
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .header-img,
   .header-menu-img,
   .headline-img,
   .projects,
-  .contact-form-img{
+  .contact-form-img {
     display: none;
   }
 
-  .header{
+  .header {
     width: 1440px;
     height: 100px;
     background: #fff;
-    box-shadow: 0px 0.5px 0px #dddfe6;
+    box-shadow: 0 0.5px 0 #dddfe6;
   }
 
-  .header-nav{
+  .header-nav {
     display: block;
     margin: 0 auto;
   }
 
-  .navbar .navbar-menu{
+  .navbar .navbar-menu {
     display: flex;
     gap: 50px;
     margin-top: 32px;
   }
 
-  .navbar .navbar-menu .navbar-menu-list{
+  .navbar .navbar-menu .navbar-menu-list {
     list-style-type: none;
   }
 
-  .navbar .navbar-menu .navbar-menu-list .nav-links{
-    font-family: 'Poppins';
+  .navbar .navbar-menu .navbar-menu-list .nav-links {
+    font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -492,7 +491,7 @@ img {
     text-decoration: none;
   }
 
-  .hello-underline{
+  .hello-underline {
     position: absolute;
     width: 29px;
     height: 2px;
@@ -501,25 +500,25 @@ img {
     background: #1a2236;
   }
 
-  .wrapper{
+  .wrapper {
     width: 1440px;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
   }
 
-  .headline{
+  .headline {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .desktop-headline{
+  .desktop-headline {
     margin-left: 150px;
     margin-top: 50px;
   }
 
-  .headline h1{
-    font-family: 'Playfair Display';
+  .headline h1 {
+    font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
@@ -528,16 +527,16 @@ img {
     margin-left: 0;
   }
 
-  .headline p{
+  .headline p {
     margin: 20px 16px;
   }
 
-  .btn.btn-1{
+  .btn.btn-1 {
     width: 254px;
     height: 70px;
   }
 
-  .headline-desktop-img{
+  .headline-desktop-img {
     display: block;
     background-image: url("./images/image-geometry_desktop1.svg");
     background-repeat: no-repeat;
@@ -548,7 +547,7 @@ img {
     left: 130px;
   }
 
-  .dots-img{
+  .dots-img {
     background-image: url("./images/image_dots.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -559,20 +558,39 @@ img {
     bottom: 176px;
   }
 
-  #portfolio{
+  #portfolio {
     display: grid;
-    grid-template-columns: repeat(6, 1fr) ;
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
 
-  #portfolio .title h1{
+  #about h1 {
+    font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 110px;
+    color: #1a2236;
+    justify-content: center;
+  }
+
+  #contact-form h1 {
+    font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #1a2236;
+    text-align: center;
+    position: relative;
+    bottom: 280px;
+  }
+
+  #portfolio .title h1 {
     font-size: 110px;
     transform: rotate(-90deg);
     position: relative;
     right: 100px;
   }
 
-  .dots-img-1{
+  .dots-img-1 {
     background-image: url("./images/image_dots.png");
     background-repeat: no-repeat;
     width: 160px;
@@ -581,7 +599,7 @@ img {
     right: 100px;
   }
 
-  .project-21{
+  .project-21 {
     background-image: url("./images/Rectangle\ 21.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -599,16 +617,16 @@ img {
     height: 360px;
     margin-top: 200px;
   }
-  
+
   .project-21-itmes h4 {
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 60px;
     color: #fff;
-    margin-left:  60px;
-    padding-top: 20px ;
+    margin-left: 60px;
+    padding-top: 20px;
   }
-  
+
   .project-21-itmes ul {
     display: flex;
     justify-content: flex-start;
@@ -616,7 +634,7 @@ img {
     margin-left: 60px;
     margin-top: 10px;
   }
-  
+
   .project-21-itmes ul li {
     list-style-type: none;
     text-decoration: none;
@@ -630,7 +648,7 @@ img {
     cursor: pointer;
     transition: 0.5s;
   }
-  
+
   .project-button {
     width: 250px;
     background: #fff;
@@ -647,17 +665,17 @@ img {
     cursor: pointer;
     transition: 1s;
   }
-  
+
   .project-button:hover {
     transform: scale(1.1);
   }
-  
+
   .project-button img {
     vertical-align: middle;
     margin-left: 10px;
   }
 
-  .project-22{
+  .project-22 {
     background-image: url("./images/Rectangle\ 22.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -669,7 +687,7 @@ img {
     right: 130px;
   }
 
-  .back-img-22{
+  .back-img-22 {
     background-image: url("./images/image-geometry_2_2.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -682,7 +700,7 @@ img {
     top: 10px;
   }
 
-  .project-26{
+  .project-26 {
     background-image: url("./images/Rectangle\ 26.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -705,7 +723,7 @@ img {
     position: relative;
     right: 30px;
   }
-  
+
   .project-26-itmes h4 {
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 700;
@@ -714,7 +732,7 @@ img {
     margin-left: 40px;
     padding-top: 20px;
   }
-  
+
   .project-26-itmes ul {
     display: flex;
     justify-content: flex-start;
@@ -722,7 +740,7 @@ img {
     margin-left: 40px;
     margin-top: 20px;
   }
-  
+
   .project-26-itmes ul li {
     list-style-type: none;
     text-decoration: none;
@@ -736,7 +754,7 @@ img {
     cursor: pointer;
     transition: 0.5s;
   }
-  
+
   .project-button-1 {
     width: 250px;
     background: #fff;
@@ -753,17 +771,17 @@ img {
     cursor: pointer;
     transition: 1s;
   }
-  
+
   .project-button-1:hover {
     transform: scale(1.1);
   }
-  
+
   .project-button-1 img {
     vertical-align: middle;
     margin-left: 10px;
   }
 
-  .project-25{
+  .project-25 {
     background-image: url("./images/Rectangle\ 25.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -774,7 +792,7 @@ img {
     right: 30px;
   }
 
-  .project-23{
+  .project-23 {
     background-image: url("./images/Rectangle\ 23.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -787,7 +805,7 @@ img {
     right: 120px;
   }
 
-  .back-img-33{
+  .back-img-33 {
     background-image: url("./images/image-geometry_3.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -797,7 +815,7 @@ img {
     right: 170px;
   }
 
-  .back-img-55{
+  .back-img-55 {
     background-image: url("./images/image-geometry_5.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -810,7 +828,7 @@ img {
     right: 125px;
   }
 
-  .back-img-44{
+  .back-img-44 {
     background-image: url("./images/image-geometry_4.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -823,7 +841,7 @@ img {
     right: 35px;
   }
 
-  .project-24{
+  .project-24 {
     background-image: url("./images/Rectangle\ 24.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -833,119 +851,110 @@ img {
     right: 350px;
   }
 
- 
-  #about{
+  #about {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
     bottom: 1200px;
-   }
- 
-   .about-section{
-     position: relative;
-     bottom: 80px;
-     right: 100px;
-   }
- 
-   #about h1 {
-     font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-     font-weight: 400;
-     font-size: 110px;
-     color: #1A2236;
-     justify-content: center;
-   }
- 
-   #about p {
-     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 21px;
-     color: #1a2236;
-   }
-   
-   .btn-two {
-     width: 254px;
-     height: 70px;
-     background: #1a2236;
-     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-     font-weight: 500;
-     font-size: 16px;
-     text-align: center;
-     color: #FFFFFF;
-     text-decoration: none;
-     margin: 5px 16px;
-   }
-   
-   .btn-two img {
-     margin-left: 20px;
-     vertical-align: middle;
-   }
- 
-   .items-section{
-     display: grid;
-     grid-template-columns: repeat(12, 1fr);
-   }
- 
-   .items-section .languages{
-     width: 100%;
-     grid-column: 3 / 7;
-   }
- 
-   .languages-img {
-     background-image: url("./images/ic_languages_mob.svg");
-     background-repeat: no-repeat;
-     width: 102px;
-     height: 102px;
-     position: relative;
-     left: 170px;
-     bottom: 40px;
-   }
- 
-   .items-section .frameworks{
-     width: 100%;
-     grid-column: 7 /  8;
-   }
- 
-   .frameworks-img {
-     background-image: url("./images/ic_framework.svg");
-     background-repeat: no-repeat;
-     width: 96px;
-     height: 96px;
-     position: relative;
-     bottom: 30px;
-     left: 15px;
-   }
- 
-   .items-section .skills{
-     width: 100%;
-     grid-column: 3 /  7;
-   }
- 
-   .skills-img {
-     background-image: url("./images/ic_skills.svg");
-     background-repeat: no-repeat;
-     width: 102px;
-     height: 102px;
-     position: relative;
-     bottom: 20px;
-     right: 20px;
-   }
-  
-   .items-section .about-dots-img{
-     position: relative;
-     top: 115px;
-     left: 70px;
-   }
+  }
 
-   #contact-form{
-    background: #F9F9FA;
+  .about-section {
+    position: relative;
+    bottom: 80px;
+    right: 100px;
+  }
+
+  #about p {
+    font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+  }
+
+  .btn-two {
+    width: 254px;
+    height: 70px;
+    background: #1a2236;
+    font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 16px;
+  }
+
+  .btn-two img {
+    margin-left: 20px;
+    vertical-align: middle;
+  }
+
+  .items-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .items-section .languages {
+    width: 100%;
+    grid-column: 3 / 7;
+  }
+
+  .languages-img {
+    background-image: url("./images/ic_languages_mob.svg");
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 102px;
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+  }
+
+  .items-section .frameworks {
+    width: 100%;
+    grid-column: 7 /  8;
+  }
+
+  .frameworks-img {
+    background-image: url("./images/ic_framework.svg");
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 96px;
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+  }
+
+  .items-section .skills {
+    width: 100%;
+    grid-column: 3 /  7;
+  }
+
+  .skills-img {
+    background-image: url("./images/ic_skills.svg");
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 102px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .items-section .about-dots-img {
+    position: relative;
+    top: 115px;
+    left: 70px;
+  }
+
+  #contact-form {
+    background: #f9f9fa;
     width: 1440px;
     height: 950px;
     position: relative;
     bottom: 900px;
   }
 
-  .contact-form-img-2{
+  .contact-form-img-2 {
     display: block;
     background-image: url("./images/image-geometry_6.png");
     background-repeat: no-repeat;
@@ -953,18 +962,7 @@ img {
     height: 350.84px;
   }
 
-  #contact-form h1{
-    font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 100%;
-    color: #1a2236;
-    text-align: center;
-    position: relative;
-    bottom: 280px;
-  }
-  
-  #contact-form p{
+  #contact-form p {
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -976,7 +974,7 @@ img {
     bottom: 260px;
   }
 
-  .contact-form-img-3{
+  .contact-form-img-3 {
     display: block;
     background-image: url("./images/image-geometry_7.png");
     background-repeat: no-repeat;
@@ -987,30 +985,30 @@ img {
     left: 680px;
   }
 
-  .form{
+  .form {
     margin-left: 400px;
     position: relative;
     bottom: 260px;
   }
 
-  .form ul{
+  .form ul {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     gap: 20px;
   }
 
-  .form-name-email-field{
+  .form-name-email-field {
     display: flex;
     gap: 15px;
   }
 
-  .form ul .form-name-email-field li input{
+  .form ul .form-name-email-field li input {
     height: 60px;
     width: 253px;
   }
 
-  .form ul li textarea{
+  .form ul li textarea {
     width: 542px;
     height: 140px;
   }
@@ -1022,7 +1020,7 @@ img {
     height: 70px;
   }
 
-  .footer{
+  .footer {
     width: 100%;
     height: 123px;
     background: #1a2236;
@@ -1033,11 +1031,11 @@ img {
     bottom: 900px;
   }
 
-  .footer .link{
+  .footer .link {
     margin-left: 100px;
   }
 
-  .social-icons{
+  .social-icons {
     margin-left: 300px;
-  } 
+  }
 }
