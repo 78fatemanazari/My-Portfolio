@@ -876,6 +876,7 @@ img {
     width: 254px;
     height: 70px;
     background: #1a2236;
+    cursor: pointer;
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -885,11 +886,16 @@ img {
     margin: 5px 16px;
   }
 
+  .btn-two:hover {
+    background: #fff;
+    color: #1a2236;
+  }
+
   .btn-two img {
     margin-left: 20px;
     vertical-align: middle;
   }
-
+  
   .items-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
