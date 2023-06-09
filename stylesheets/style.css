@@ -574,6 +574,19 @@ img {
     margin: 20px 16px;
   }
 
+  .text1{
+    animation: text 3s 1;
+  }
+
+  @keyframes text{
+    0%{
+      font-size: 80%;
+    }
+    30%{
+      letter-spacing: 25px;
+    }
+  }
+
   .btn .btn-1 {
     width: 254px;
     height: 70px;
@@ -606,6 +619,22 @@ img {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
+  }
+
+  .project{
+    animation: title 3s 1;
+  }
+
+  @keyframes title{
+    0%{
+      transform: rotate(-90deg);
+    }
+    50%{
+      transform: rotate(120deg);
+    }
+    100%{
+      transform: rotate(-90deg);
+    }
   }
 
   #about h2 {
@@ -685,6 +714,11 @@ img {
     padding: 6px 10px;
     cursor: pointer;
     transition: 0.5s;
+  }
+
+  .project-21-itmes ul li:hover{
+    background: #1a2236;
+    color: #fff;
   }
 
   .project-button {
@@ -833,6 +867,11 @@ img {
     padding: 3px 5px;
     cursor: pointer;
     transition: 0.5s;
+  }
+
+  .project-26-itmes ul li:hover{
+    background: #1a2236;
+    color: #fff;
   }
 
   .project-button-1 {
