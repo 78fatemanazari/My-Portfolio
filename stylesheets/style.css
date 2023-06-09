@@ -574,15 +574,16 @@ img {
     margin: 20px 16px;
   }
 
-  .text1{
+  .text1 {
     animation: text 3s 1;
   }
 
-  @keyframes text{
-    0%{
+  @keyframes text {
+    0% {
       font-size: 80%;
     }
-    30%{
+
+    30% {
       letter-spacing: 25px;
     }
   }
@@ -621,18 +622,20 @@ img {
     grid-template-rows: repeat(6, 1fr);
   }
 
-  .project{
+  .project {
     animation: title 3s 1;
   }
 
-  @keyframes title{
-    0%{
+  @keyframes title {
+    0% {
       transform: rotate(-90deg);
     }
-    50%{
+
+    50% {
       transform: rotate(120deg);
     }
-    100%{
+
+    100% {
       transform: rotate(-90deg);
     }
   }
@@ -716,7 +719,21 @@ img {
     transition: 0.5s;
   }
 
-  .project-21-itmes ul li:hover{
+  .project-26-itmes ul li {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background: #98dede;
+    color: #1a2236;
+    text-align: center;
+    padding: 3px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .project-21-itmes ul li:hover {
     background: #1a2236;
     color: #fff;
   }
@@ -855,21 +872,7 @@ img {
     margin-top: 20px;
   }
 
-  .project-26-itmes ul li {
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    background: #98dede;
-    color: #1a2236;
-    text-align: center;
-    padding: 3px 5px;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  .project-26-itmes ul li:hover{
+  .project-26-itmes ul li:hover {
     background: #1a2236;
     color: #fff;
   }
