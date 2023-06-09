@@ -192,7 +192,7 @@ img {
   transition: 1s;
 }
 
-.project-button a{
+.project-button a {
   font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -238,13 +238,25 @@ img {
   width: 288px;
   height: 50px;
   background: #1a2236;
+  margin: 5px 16px;
+}
+
+.btn-two:hover {
+  color: #1a2236;
+  background: #fff;
+}
+
+.btn-two a {
   font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   color: #fff;
   text-decoration: none;
-  margin: 5px 16px;
+}
+
+.btn-two:hover a {
+  color: #1a2236;
 }
 
 .btn-two img {
@@ -665,7 +677,7 @@ img {
     transition: 1s;
   }
 
-  .project-button a{
+  .project-button a {
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -774,7 +786,7 @@ img {
     transition: 1s;
   }
 
-  .project-button-1 a{
+  .project-button-1 a {
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -884,17 +896,6 @@ img {
   }
 
   .btn-two {
-    
-  }
-
-  .btn-two:hover {
-    background: #fff;
-    color: #1a2236;
-  }
-
-  
-  .btn-two {
-    /* Add your button styles here */
     width: 254px;
     height: 70px;
     background: #1a2236;
@@ -902,8 +903,12 @@ img {
     margin: 5px 16px;
   }
 
+  button:hover {
+    background: #fff;
+    color: #1a2236;
+  }
+
   .btn-two a {
-    /* Add your link styles here */
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -913,13 +918,10 @@ img {
   }
 
   .btn-two:hover a {
-    /* Add hover styles for the link */
-    /* For example */
-    color: #1a2236; /* Change to your desired hover color */
+    color: #1a2236;
   }
 
   .btn-two:active a {
-    /* Add styles for the link when it's pressed */
     border: 2px solid #1a2236;
   }
 
@@ -927,7 +929,7 @@ img {
     margin-left: 20px;
     vertical-align: middle;
   }
-  
+
   .items-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
