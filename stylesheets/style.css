@@ -423,6 +423,7 @@ img {
 .footer {
   width: 318px;
   height: 137px;
+  margin: 0 auto;
   background: #1a2236;
 }
 
@@ -883,22 +884,43 @@ img {
   }
 
   .btn-two {
+    
+  }
+
+  .btn-two:hover {
+    background: #fff;
+    color: #1a2236;
+  }
+
+  
+  .btn-two {
+    /* Add your button styles here */
     width: 254px;
     height: 70px;
     background: #1a2236;
     cursor: pointer;
+    margin: 5px 16px;
+  }
+
+  .btn-two a {
+    /* Add your link styles here */
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
     color: #fff;
     text-decoration: none;
-    margin: 5px 16px;
   }
 
-  .btn-two:hover {
-    background: #fff;
-    color: #1a2236;
+  .btn-two:hover a {
+    /* Add hover styles for the link */
+    /* For example */
+    color: #1a2236; /* Change to your desired hover color */
+  }
+
+  .btn-two:active a {
+    /* Add styles for the link when it's pressed */
+    border: 2px solid #1a2236;
   }
 
   .btn-two img {
