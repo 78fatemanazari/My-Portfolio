@@ -98,7 +98,7 @@ img {
 
 /* Portfolio Style */
 
-#portfolio h1 {
+#portfolio h2 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 50px;
@@ -188,14 +188,17 @@ img {
   border: 1px solid #fff;
   margin-left: 20px;
   padding: 10px 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.project-button a{
   font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
-  transition: 1s;
 }
 
 .project-button:hover {
@@ -213,7 +216,7 @@ img {
   margin-bottom: 30px;
 }
 
-#about h1 {
+#about h2 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 50px;
@@ -365,7 +368,7 @@ img {
   height: 74.02px;
 }
 
-#contact-form h1 {
+#contact-form h2 {
   font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 50px;
@@ -454,7 +457,8 @@ img {
   .header-menu-img,
   .headline-img,
   .projects,
-  .contact-form-img {
+  .contact-form-img,
+  .img-1 {
     display: none;
   }
 
@@ -531,7 +535,7 @@ img {
     margin: 20px 16px;
   }
 
-  .btn.btn-1 {
+  .btn .btn-1 {
     width: 254px;
     height: 70px;
   }
@@ -564,7 +568,7 @@ img {
     grid-template-rows: repeat(6, 1fr);
   }
 
-  #about h1 {
+  #about h2 {
     font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 110px;
@@ -572,7 +576,7 @@ img {
     justify-content: center;
   }
 
-  #contact-form h1 {
+  #contact-form h2 {
     font-family: 'Playfair Display', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 110px;
@@ -583,7 +587,7 @@ img {
     bottom: 280px;
   }
 
-  #portfolio .title h1 {
+  #portfolio .title h2 {
     font-size: 110px;
     transform: rotate(-90deg);
     position: relative;
@@ -656,14 +660,17 @@ img {
     margin-top: 60px;
     margin-left: 60px;
     padding: 20px 20px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .project-button a{
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
     color: #1a2236;
     text-decoration: none;
-    cursor: pointer;
-    transition: 1s;
   }
 
   .project-button:hover {
@@ -762,14 +769,17 @@ img {
     margin-top: 20px;
     margin-left: 40px;
     padding: 10px 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .project-button-1 a{
     font-family: 'Poppins', "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
     color: #1a2236;
     text-decoration: none;
-    cursor: pointer;
-    transition: 1s;
   }
 
   .project-button-1:hover {
@@ -1027,12 +1037,12 @@ img {
   }
 
   .footer {
-    width: 100%;
+    width: 1440px;
     height: 123px;
     background: #1a2236;
     display: flex;
     align-items: center;
-    gap: 550px;
+    margin-left: 125px;
     position: relative;
     bottom: 900px;
   }
@@ -1042,6 +1052,6 @@ img {
   }
 
   .social-icons {
-    margin-left: 300px;
+    margin-left: 600px;
   }
 }
