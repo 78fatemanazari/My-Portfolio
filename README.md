@@ -25,7 +25,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** is a project to help you built your first mobile portfolio using figma design and review your HTML & CSS skills. This is a project to show all my recent prrojects.
+**Portfolio**  is a project to showcase all of my recent projects. It maitains the information about my projects, the gallant informatin about me, and the link to my resume.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,16 +46,15 @@
 - **Collaboration Button**
 - **Works Section**
 - **About Me Section**
+- **Contact Form**
+- **Footer Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- Coming soon...
-
+- [Here is the link to the live experience](https://78fatemanazari.github.io/My-Portfolio/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
