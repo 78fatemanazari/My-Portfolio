@@ -1031,8 +1031,14 @@ text-decoration: none;
     margin-left: 100px;
   }
 
-  .social-icons{
-    margin-left: 300px;
+  .social-icons ul{
+   display: flex;
+   align-items: center;
+   margin-right: 50px;
+  }
+
+  .social-icons ul li{
+    margin-left: 20px;
   }
 
    
