@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Fatema Nazari's Portfolio">
         <title>Portfolio</title>
-        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="stylesheet" href="assets/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -19,154 +19,163 @@
     </head>
     
     <body>
-        <nav class="header">
-            <img src="stylesheets/images/ic_menu.svg" alt="menu icon">
-            <div class="navbar">
-                <ul class="navbar-menu">
-                    <li class="navbar-menu-list">
-                        <a class="nav-links" href="#hello">Hello</a>
-                    </li>
-                    <li class="navbar-menu-list">
-                        <a class="nav-links" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="navbar-menu-list">
-                        <a class="nav-links" href="#about">About</a>
-                    </li>
-                    <li class="navbar-menu-list"><a class="nav-links" href="#contact-form">Contact</a>
-                    </li>
-                </ul>
+<!--Start HEADER SECTION-->
+        <header class="header">
+            <div class="header_bg">
+                <img class="header_bg_img" src="assets/images/background_images/mob_header_img.svg" alt="header img">
             </div>
-        </nav>
-
-        <section>
-            <div class="desktop-headline">
-                <h1 class="text1">
+                <nav class="navbar">
+                        <ul>
+                            <li>
+                                <a href="#hello">Hello</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li><a class="nav-links" href="#contact-form">Contact</a>
+                            </li>
+                        </ul>
+                </nav>
+            <div class="menu_icon">
+                <img class="menu_icon_img" src="assets/images/button icons/menu_icon.svg" alt="menu icon">
+            </div>
+        </header>
+<!--End HEADER SECTION-->
+<!--Start HEADLINE SECTION-->
+        <section id="hello" class="healine">
+            <div class="headline_container">
+                <h1>
                     Fatema<br/>Nazari
                 </h1>
-                <p class="text2">Hello! I am a software developer! I can<br/>
+                <p>Hello! I am a software developer! I can<br/>
                     help you build a product, <br/>
                     feature or website. Take a look at my work.<br/><br/>
                     If you like what you see and have a<br/>
                     project you need coded, don’t hesitate to<br/>
                     contact me.
                 </p>
-                <button class="btn btn-1" type="submit">Start collaboration</button>
+                <button type="submit">Start collaboration</button>
+            </div>
         </section>
-
-        <section id="portfolio">
+<!--End HEADLINE SECTION-->
+<!--Start WORKS SECTION-->
+        <section id="portfolio" class="cards">
             <div class="title">
-                <h2 class="project">Projects</h2>
+                <h2>Projects</h2>
+            </div>
+            <!--Card 1-->
+            <div class="card">
+                <img class="card_img" src="assets/images/cards/card_1.png" alt="project 1 img">
                 <h4>Project name goes here</h4>
                 <ul>
                     <li>HTML/CSS</li>
                     <li>Ruby on Rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="project-button" type="submit">
+                <button class="btn" type="submit">
                     <a href="https://github.com/78fatemanazari/My-Portfolio">
                         See this project
-                        <img class="light-img" src="stylesheets/images/Union-1.png" alt="union img">
+                        <img src="assets/images/button icons/Union.png" alt="union img">
                     </a>
                 </button>
             </div>
-            <div class="project-26-itmes">
-                <h4>Project name goes...</h4>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>Ruby on Rails</li>
-                        <li>JavaScript</li>
-                    </ul>
-                <button class="project-button-1" type="submit">
+            <!--Card 2-->
+            <div class="card">
+                <img class="card_img" src="assets/images/cards/card_2.png" alt="project 2 img">
+                <h4>Project name goes here</h4>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Ruby on Rails</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="btn" type="submit">
+                    <a href="https://github.com/78fatemanazari/My-Portfolio">
+                        See this project
+                        <img src="assets/images/button icons/Union.png" alt="union img">
+                    </a>
+                </button>
+            </div>
+            <!--Card 3-->
+            <div class="card">
+                <img class="card_img" src="assets/images/cards/card_3.png" alt="project 3 img">
+                <h4>Project name goes here</h4>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Ruby on Rails</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="btn" type="submit">
                     <a href="https://github.com/78fatemanazari/My-Portfolio">See this project
-                        <img src="stylesheets/images/Union-1.png" alt="union img">
+                        <img src="assets/images/button icons/Union.png" alt="union img">
                     </a>
                 </button>
             </div>
-            <div class="projects-item ">
-                <img src="stylesheets/images/Rectangle 21.png" alt="project 1 img">
+            <!--Card 4-->
+            <div class="card">
+                <img class="card_img" src="assets/images/cards/card_4.png" alt="project 4 img">
                 <h4>Project name goes here</h4>
                 <ul>
                     <li>HTML/CSS</li>
                     <li>Ruby on Rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="project-button" type="submit">
+                <button class="btn" type="submit">
                     <a href="https://github.com/78fatemanazari/My-Portfolio">
                         See this project
-                        <img src="stylesheets/images/Union.png" alt="union img">
+                        <img src="assets/images/button icons/Union.png" alt="union img">
                     </a>
                 </button>
             </div>
-            <div class="projects-item ">
-                <img src="stylesheets/images/Rectangle 22.png" alt="project 2 img">
+            <!--Card 5-->
+            <div class="card">
+                <img class="card_img" src="assets/images/cards/card_5.png" alt="project 5 img">
                 <h4>Project name goes here</h4>
                 <ul>
                     <li>HTML/CSS</li>
                     <li>Ruby on Rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="project-button" type="submit">
-                    <a href="https://github.com/78fatemanazari/My-Portfolio">
-                        See this project
-                        <img src="stylesheets/images/Union.png" alt="union img">
+                <button class="btn" type="submit">
+                    <a href="https://github.com/78fatemanazari/My-Portfolio">See this project
+                        <img src="assets/images/button icons/Union.png" alt="union img">
                     </a>
                 </button>
             </div>
-            <div class="projects-item ">
-                <img src="stylesheets/images/Rectangle 23.png" alt="project 3 img">
+            <!--Card 6-->
+            <div class="card">
+                <img class="card_img" src="assets/images/cards/card_6.png" alt="project 6 img">
                 <h4>Project name goes here</h4>
                 <ul>
                     <li>HTML/CSS</li>
                     <li>Ruby on Rails</li>
                     <li>JavaScript</li>
                 </ul>
-                <button class="project-button" type="submit"><a href="https://github.com/78fatemanazari/My-Portfolio">See this project<img src="stylesheets/images/Union.png" alt="union img"></a></button>
-            </div>
-            <div class="projects-item ">
-                <img src="stylesheets/images/Rectangle 24.png" alt="project 4 img">
-                <h4>Project name goes here</h4>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>Ruby on Rails</li>
-                    <li>JavaScript</li>
-                </ul>
-                <button class="project-button" type="submit"><a href="https://github.com/78fatemanazari/My-Portfolio">See this project<img src="stylesheets/images/Union.png" alt="union img"></a></button>
-            </div>
-            <div class="projects-item ">
-                <img src="stylesheets/images/Rectangle 25.png" alt="project 5 img">
-                <h4>Project name goes here</h4>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>Ruby on Rails</li>
-                    <li>JavaScript</li>
-                </ul>
-                <button class="project-button" type="submit"><a href="https://github.com/78fatemanazari/My-Portfolio">See this project<img src="stylesheets/images/Union.png" alt="union img"></a></button>
-            </div>
-            <div class="projects-item ">
-                <img src="stylesheets/images/Rectangle 26.png" alt="project 6 img">
-                <h4>Project name goes here</h4>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>Ruby on Rails</li>
-                    <li>JavaScript</li>
-                </ul>
-                <button class="project-button" type="submit"><a href="https://github.com/78fatemanazari/My-Portfolio">See this project<img src="stylesheets/images/Union.png" alt="union img"></a></button>
+                <button class="btn" type="submit">
+                    <a href="https://github.com/78fatemanazari/My-Portfolio">See this project
+                        <img src="assets/images/button icons/Union.png" alt="union img">
+                    </a>
+                </button>
             </div>
         </section>
-
-        <section id="about">
-            <div class="about-section">
+<!--End WORKS SECTION-->
+<!--Start ABOUT ME SECTION-->
+        <section id="about" class="about">
+            <div class="about_me">
                 <h2>About</h2>
                 <p>I can help you build a product, feature or
                 website Look through some of my work
                 and experience! If you like what you see
                 and have a project you need coded,
                 don’t hesitate to contact me.</p>
-                <button class="btn-two" type="submit">
-                    <a href="/">Get my CV<img class="light-img" src="stylesheets/images/ic_download.svg" alt="ic download img">
-                        <img class="dark-img" src="stylesheets/images/ic_download2.svg" alt="ic download img">
+                <button class="btn_1" type="submit">
+                    <a href="/">Get my CV<img src="assets/images/button icons/download_icon.svg" alt="ic download img">
                     </a>
                 </button>
+            </div>
+            <div class="rectangle blue">
                 <h3>languages</h3>
                 <ul>
                     <li>JavaScript (ES5/ES6)</li>
@@ -175,7 +184,7 @@
                     <li>CSS</li>
                 </ul>
             </div>
-            <div class="frameworks">
+            <div class="rectangle pink">
                 <h3>Frameworks</h3>
                 <ul>
                     <li>React.js</li>
@@ -184,7 +193,7 @@
                     <li>Capibara</li>
                 </ul>
             </div>
-            <div class="skills">
+            <div class="rectangle yellow">
                 <h3>Skills</h3>
                 <ul>
                     <li>Database Management</li>
@@ -195,13 +204,14 @@
                 </ul>
             </div>
         </section>
-
-        <section id="contact-form">
+<!--End ABOUT ME SECTION-->
+<!--Start CONTACT FORM SECTION-->
+        <section id="contact" class="contact_form">
             <h2>Get started</h2>
             <p>I'm always interested in hearing about  <br />
             new projects, so if you'd like to chat <br />
             please get in touch.</p>
-            <form action="https://formspree.io/f/xknaqawg" class="form" method="post">
+            <form class="form" action="https://formspree.io/f/xknaqawg" method="post">
                 <ul>
                     <li>
                         <label for="name">Your name</label>
@@ -216,27 +226,28 @@
                         <textarea name="message" id="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
                     </li>
                 </ul>
-                <button class="btn" type="submit">Start collaboration</button>
+                <button class="btn_2" type="submit">Start collaboration</button>
             </form>
         </section>
-
-        <section class="footer">
+<!--End CONTACT FORM SECTION-->
+<!--Start FOOTER SECTION-->
+        <footer class="footer">
             <div class="link">
                 <a href="/">
                     Get my Resume
-                    <img src="stylesheets/images/ic_link_teal.svg" alt="ic link teal img">
+                    <img src="assets/images/button icons/link_teal_icon.svg" alt="ic link teal img">
                 </a>
             </div>
-            <div class="social-icons">
+            <div class="social_icons">
                 <ul>
-                    <li><a href="/"><img src="stylesheets/images/ic_stackoverflow.svg" alt="ic stackoverflow img"></a></li>
-                    <li><a href="/"><img src="stylesheets/images/ic_github.svg" alt="ic github img"></a></li>
-                    <li><a href="/"><img src="stylesheets/images/ic_twitter.svg" alt="ic twitter img"></a></li>
-                    <li><a href="/"><img src="stylesheets/images/ic_linkedin.svg" alt="ic linkedin img"></a></li>
-                    <li><a href="/"><img src="stylesheets/images/ic_medium.svg" alt="ic medium img"></a></li>
-                    <li><a href="/"><img src="stylesheets/images/ic_angellist.svg" alt="ic agellist img"></a></li>
+                    <li><a href="/"><img src="assets/images/icons/stackoverflow_icon.svg" alt="ic stackoverflow img"></a></li>
+                    <li><a href="/"><img src="assets/images/icons/github_icon.svg" alt="ic github img"></a></li>
+                    <li><a href="/"><img src="assets/images/icons/ic_twitter.svg" alt="ic twitter img"></a></li>
+                    <li><a href="/"><img src="assets/images/icons/linkedin_icon.svg" alt="ic linkedin img"></a></li>
+                    <li><a href="/"><img src="assets/images/icons/medium_icon.svg" alt="ic medium img"></a></li>
+                    <li><a href="/"><img src="assets/images/icons/angellist_icon.svg" alt="ic agellist img"></a></li>
                 </ul>
             </div>
-        </section>
+        </footer>
     </body>
 </html>
