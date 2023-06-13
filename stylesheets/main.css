@@ -406,7 +406,36 @@ img {
 }
 
 /* Footer Style */
+.footer{
+  width: 100%;
+  background: #1a2236;
+  padding: 28px 14px 36px 18px;
+}
 
+.link{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link a{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #92dcdc;
+text-decoration: none;
+}
+
+.social_icons ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_icons ul li{
+  list-style-type: none;
+  margin-top: 32px;
+}
 
 .header-nav,
 .headline-desktop-img,
