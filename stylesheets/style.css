@@ -89,14 +89,15 @@ img {
   .navbar-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 0;
     gap: 0;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
+    height: 100%;
     text-align: center;
     transition: 0.3s;
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 150px;
     background-image: url(./images/image_geometry_menu_1.svg), url(./images/image_geometry_menu_2.svg);
     background-repeat: no-repeat;
