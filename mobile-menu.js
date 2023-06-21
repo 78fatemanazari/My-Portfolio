@@ -12,24 +12,24 @@ document.querySelectorAll('.navbar-menu-list').forEach((n) => n
     navMenu.classList.remove('active');
   }));
 
-  /* Form Validation */
+/* Form Validation */
 
-  const form = document.getElementById('myForm');
-    const emailInput = document.getElementById('email');
-    const errorText = document.getElementById('error');
+const form = document.getElementById('myForm');
+const emailInput = document.getElementById('email');
+const errorText = document.getElementById('error');
 
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
-      const email = emailInput.value;
-      const isLowerCase = email === email.toLowerCase();
+  const email = emailInput.value;
+  const isLowerCase = email === email.toLowerCase();
 
-      if (isLowerCase) {
-        form.submit();
-      } else {
-        errorText.textContent = 'Email must be in lowercase.';
-        errorText.style.display = 'block';
-        errorText.style.color = 'red';
-        errorText.style.borderColor = 'red';
-      }
-    });
+  if (isLowerCase) {
+    form.submit();
+  } else {
+    errorText.textContent = 'Email must be in lowercase.';
+    errorText.style.display = 'block';
+    errorText.style.color = 'red';
+    errorText.style.borderColor = 'red';
+  }
+});
